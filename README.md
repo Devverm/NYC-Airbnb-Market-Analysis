@@ -60,7 +60,7 @@ This project analyzes Airbnb listing data for New York City to understand how pr
 ## Dashboard pages in detail
 
 ### 1. Price
-![Price story page](<img width="1066" height="715" alt="image" src="https://github.com/user-attachments/assets/593c70d5-f73d-4c92-87b4-59d7b4dc5a18" />
+![Price story page](https://github.com/Devverm/NYC-Airbnb-Market-Analysis/blob/main/01-price.png)
 )
 - **Price By Room Type** — line chart of average price (2014–2019) split by room type.
 - **Price Trending In Neighbor Groups Over Time** — a faceted time series (2014–2019) for each borough, with an interactive filter.
@@ -68,7 +68,7 @@ This project analyzes Airbnb listing data for New York City to understand how pr
 - A **Neighbourhood** and **Room Type** filter pane in the upper-left lets you drill into a specific area.
 
 ### 2. Noise
-![Noise story page](https://claude.ai/api/9661c463-c364-47b5-bba7-c3f76b29c7ac/files/74b7cfb7-1cf4-488e-b88d-1e174617519e/preview)
+![Noise story page](https://github.com/Devverm/NYC-Airbnb-Market-Analysis/blob/main/02-noise.png)
 - **Noise by Neighbourhood Group** — bar/treemap-style summary: Bronx has the highest average noise level (78.43 dB), followed by Brooklyn (69.11), Queens (62.45), Manhattan (56.22), and Staten Island (51.71 — quietest).
 - **Noise by Neighbourhood** — same metric broken down to the neighbourhood level, sorted within each borough.
 - **Noise Level-Map** — geographic plot of listings color-coded by noise level (light → dark red as dB increases), with a click-to-filter interaction tied to the borough/neighbourhood charts.
