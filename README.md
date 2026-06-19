@@ -74,25 +74,25 @@ This project analyzes Airbnb listing data for New York City to understand how pr
 - **Noise Level-Map** — geographic plot of listings color-coded by noise level (light → dark red as dB increases), with a click-to-filter interaction tied to the borough/neighbourhood charts.
 
 ### 3. Price Geo
-![Price Geo story page](images/03-price-geo.png)
+![Price Geo story page](https://github.com/Devverm/NYC-Airbnb-Market-Analysis/blob/main/03-price-geo.png)
 - **Average Price Distribution** — a map of all listings colored by `Price Group` (High = red, Medium = green, Low = yellow), showing that high-priced listings cluster heavily in Manhattan.
 - **Number of Neighbourhood in Different Price Group** — small-multiple bar charts (one row per price tier) showing how many neighbourhoods in each borough fall into Low/Medium/High price bands. Brooklyn and Manhattan dominate the Medium and High tiers; Brooklyn also leads the Low tier.
 
 ### 4. Room Type (Pt II)
-![Room Type story page](images/04-room-type.png)
+![Room Type story page](https://github.com/Devverm/NYC-Airbnb-Market-Analysis/blob/main/04-room-type.png)
 - **Number of Room Types by Price Group** — stacked bar chart showing listing counts per room type, segmented by price tier (e.g., Private room: 15,098 Medium-priced listings vs. 2,550 High).
 - **% of Total Number of Rooms** — the same breakdown as percentages (e.g., Entire home/apt is 63.38% Medium, 26.32% Low, 10.30% High).
 - A geographic map shows where Entire home/apt vs. Private room listings concentrate (Shared room is excluded from the legend/map view in this layout).
 
 ### 5. Review
-![Review story page](images/05-review.png)
+![Review story page](https://github.com/Devverm/NYC-Airbnb-Market-Analysis/blob/main/05-review.png)
 - **Price vs. Reviews Per Month by Room Type** — bar chart combining review-frequency buckets (1, 1.5, 2, 3, 4, 5, 7, 10+ reviews/month) with price, faceted by room type, with reference average lines.
 - **Number of Reviews vs. Price by Neighbourhood** — scatter-style chart relating total review count to price for each neighbourhood, with reference averages (avg. reviews ≈ 49K-scale, varies by neighbourhood).
 - **Review Counts by Neighbourhood** — horizontal bar chart ranking neighbourhoods by total review volume. **Bedford-Stuyvesant** and **Williamsburg** top the list (88K and 68K respectively), reflecting both listing density and popularity.
 - A **Neighbourhood** and **Room Type** filter pane supports drill-down.
 
 ### 6. Nights
-![Nights story page](images/06-nights.png)
+![Nights story page]()
 - **Average minimum night** (map) and **Average price** (map) — two side-by-side geo views, each annotated with borough-level callouts combining `Room Type`, `Avg. Minimum Nights`, and `Avg. Price` (e.g., Manhattan Shared room averages 6.75 minimum nights; Manhattan Private room averages $104.90/night — the highest in the city).
 - **Relationship** — a scatter plot of `Avg. Minimum Nights` vs. `Avg. Price` by borough, sized/colored by group, revealing a rough positive relationship: boroughs with higher average prices (Manhattan, Brooklyn) also tend to require longer minimum stays.
 
